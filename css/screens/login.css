@@ -45,7 +45,7 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--fale-lavender);
+  background-color: var(--pale-lavender);
   color: var(--cloudy-indigo);
 
   margin-top: 10px;

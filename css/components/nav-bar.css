@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  background-color: var(--light-lavender);
+  border-top: 1px solid var(--cloudy-indigo);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: var(--pale-lavender);
+  position: relative;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  left: 22px;
+  bottom: 18px;
+}
+
+.nav__issue-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  left: 28px;
+  bottom: 25px;
+}
