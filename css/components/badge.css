@@ -9,3 +9,16 @@
   color: white;
   font-weight: bold;
 }
+
+.badge--dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.badge--dot--find-screen {
+  position: absolute;
+  right: 15px;
+  top: 50px;
+}

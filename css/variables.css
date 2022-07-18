@@ -6,4 +6,5 @@
   --light-lavender: #9ba3eb;
   --pale-lavender: #dbdffd;
   --horizontal-space: 25px;
+  --main-border: 1px solid var(--pale-lavender);
 }

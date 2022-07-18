@@ -18,7 +18,7 @@
 
 .friends-screen__list {
   margin-top: 25px;
-  border-top: 1px solid var(--pale-lavender);
+  border-top: var(--main-border);
   padding-top: 15px;
 }
 
@@ -31,8 +31,4 @@
 .friends-screen__friends {
   overflow: auto;
   height: 500px;
-}
-
-.friends-screen__friends .user-component {
-  margin-bottom: 18px;
 }
