@@ -5,6 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: var(--indigo);
 }
 
 .alt-header__title {
@@ -12,10 +13,27 @@
   font-weight: bold;
 }
 
+.alt-header__column {
+  width: 33%;
+}
+
 .alt-header__column:first-child {
   margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.alt-header__column i {
+  margin-left: 20px;
+  color: var(--indigo);
 }
