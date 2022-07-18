@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat with Gill</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -38,7 +38,50 @@
       </div>
     </header>
 
-    <main class="main-screen"></main>
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">Monday, July 22, 2022</div>
+
+      <div class="message-row">
+        <img src="photo/moorishidol.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Gill</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Fish aren't meant to be in a box, kid. It does things to
+              them.</span
+            >
+            <span class="message__time">23:01</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Got it</span>
+            <span class="message__time">23:15</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Are you with Nemo??</span>
+            <span class="message__time">23:16</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-solid fa-2x fa-square-plus"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-solid fa-lg fa-face-grin-tongue-wink"></i>
+        <button><i class="fa-solid fa-lg fa-arrow-up"></i></button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/6cf7e93362.js"

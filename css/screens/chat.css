@@ -56,7 +56,7 @@
 }
 
 .message__bubble {
-  width: 140px;
+  width: auto;
   background-color: var(--pale-lavender);
   color: var(--indigo);
   padding: 8px 14px;
