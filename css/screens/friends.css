@@ -32,3 +32,46 @@
   overflow: auto;
   height: 500px;
 }
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes splashIconRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#splash-screen {
+  background-color: var(--dip-lavender);
+  position: absolute;
+  height: 150vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  animation: hideSplashScreen 1.5s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
+
+#splash-screen i {
+  position: absolute;
+  top: 25%;
+  font-size: 120px;
+  color: var(--pale-lavender);
+  animation: splashIconRotate 1.5s ease-in-out forwards;
+  animation-delay: 0.3s;
+}
