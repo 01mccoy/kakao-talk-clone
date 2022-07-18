@@ -19,6 +19,9 @@
 }
 
 .screen-header__icons span:hover {
-  margin-left: 25px;
+  color: tomato;
+}
+
+.screen-header__icons span a:hover {
   color: tomato;
 }
