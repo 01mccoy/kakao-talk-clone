@@ -25,3 +25,16 @@
 .screen-header__icons span a:hover {
   color: tomato;
 }
+
+@keyframes rotateCog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.screen-header__icons .fa-gear:hover {
+  animation: rotateCog 3s linear infinite;
+}

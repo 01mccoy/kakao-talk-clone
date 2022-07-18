@@ -22,14 +22,42 @@
   color: var(--faint-indigo);
 }
 
+@keyframes notificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   position: absolute;
   left: 22px;
   bottom: 18px;
+  animation: notificationAnimation 2s ease-in-out infinite;
 }
 
 .nav__issue-dot {
   position: absolute;
   left: 28px;
   bottom: 25px;
+}
+
+@keyframes appearBtnAnimation {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.nav__btn {
+  animation: appearBtnAnimation 1s ease-in-out;
 }
