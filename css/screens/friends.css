@@ -5,6 +5,7 @@
   padding: 15px 0px;
   margin-bottom: 10px;
   color: var(--faint-indigo);
+  margin-top: -15px;
 }
 
 #friends-display-link i {
