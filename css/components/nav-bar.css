@@ -18,6 +18,10 @@
   position: relative;
 }
 
+.nav__link--focus {
+  color: var(--faint-indigo);
+}
+
 .nav__notification {
   background-color: tomato;
   width: 25px;
