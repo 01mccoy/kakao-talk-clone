@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  color: var(--indigo);
+  color: var(--cloudy-indigo);
+  background-color: white;
 }
 
 .status-bar__column {
